@@ -17,6 +17,9 @@
 ![Static Badge](https://img.shields.io/badge/Tensorflow-white?style=plastic&logo=tensorflow&logoColor=%23FF6F00)
 ![Static Badge](https://img.shields.io/badge/Gitlab-black?style=plastic&logo=gitlab&logoColor=%23FC6D26&labelColor=white)
 ![Static Badge](https://img.shields.io/badge/Dask-red?style=plastic&logo=Dask&logoColor=%23FC6E6B&labelColor=white)
+![Static Badge](https://img.shields.io/badge/docker-grey?logo=docker&logoColor=%232496ED)
+![Static Badge](https://img.shields.io/badge/mysql-white?logo=mysql&logoColor=%234479A1)
+
 
 
 
