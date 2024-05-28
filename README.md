@@ -7,5 +7,15 @@
 - 
 
 My most important projects:
-1. My master's thesis:
+
+1. **My research projects**: The GitHub repositories associated with these projects are presently set to private access. This confidentiality has been implemented at the team's request, primarily in anticipation of forthcoming publications.
+ 
+2. **My master's thesis**:
+3. **Gaussian Regression interatomic potentials**:
+4. **Graph Neural Network for Frustration index**:(still ongoing)
+5. **Audio classification**:
+6. **Cython/Python wrapper for SEVN**:
+7. **Low-Mass-X-ray-Binaries**:
+8. **Volatility-carry-trading-strategy**:
+9.
 
