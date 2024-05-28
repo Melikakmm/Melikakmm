@@ -1,13 +1,13 @@
-# 👋 HELLO, I AM MELIKA ....
+# 💁🏻‍♀️ Hello, I am Melika ....
 
 
 - 🔭 Presently, I am engaged in a one-year research endeavor at the University of Padova, focusing on the integration of Artificial Intelligence techniques with disordered protein structures. Additionally, I am conducting a scaling ansatz analysis on droplet size distributions within protein condensates as part of this research pursuit.
 
 - ⚡ Alongside my background in **theoretical physics**, and **mathematics**, I have received comprehensive training in various aspects of computation, including **machine learning**, **deep learning**, **data analysis**, **data management**, and **distributed computing**.
-- 
+
 [![](https://visitcount.itsvg.in/api?id=MELIKAKMM&label=Profile%20Views&color=0&icon=0&pretty=true)](https://visitcount.itsvg.in)
 
-# My skills:
+## My skills 💻:
 ![GitHub](https://img.shields.io/badge/Github-purple?style=plastic&logo=github)
 ![Static Badge](https://img.shields.io/badge/C%2B%2B-white?style=plastic&logo=cplusplus&logoColor=%2300599C)
 ![Static Badge](https://img.shields.io/badge/Python-white?style=plastic&logo=python&logoColor=%233776AB)
@@ -27,7 +27,7 @@
 
 
 
-My most important projects:
+## My most important projects🗃️:
 
 1. **My research projects**: The GitHub repositories associated with these projects are presently set to private access. This confidentiality has been implemented at the team's request, primarily in anticipation of forthcoming publications.
  
