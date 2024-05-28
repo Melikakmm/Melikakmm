@@ -1,11 +1,7 @@
 ## Hi there 👋
 
-<!--
-**Melikakmm/Melikakmm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
-
-- 🔭 Alongside my background in biology, theoretical physics, and mathematics, I have received comprehensive training in various aspects of computation, including machine learning, deep learning, data analysis, data management, and distributed computing.![image](https://github.com/Melikakmm/Melikakmm/assets/91981045/949ccdf9-1320-4390-b3c6-04fd4b2ab77e)
+- 🔭 Alongside my background in biology, theoretical physics, and mathematics, I have received comprehensive training in various aspects of computation, including machine learning, deep learning, data analysis, data management, and distributed computing.
 
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
@@ -14,4 +10,4 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+
