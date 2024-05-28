@@ -7,7 +7,21 @@
 - 
 [![](https://visitcount.itsvg.in/api?id=MELIKAKMM&label=Profile%20Views&color=0&icon=0&pretty=true)](https://visitcount.itsvg.in)
 
-Mu skills:
+# My skills:
+![GitHub](https://img.shields.io/badge/Github-purple?style=plastic&logo=github)
+![Static Badge](https://img.shields.io/badge/C%2B%2B-white?style=plastic&logo=cplusplus&logoColor=%2300599C)
+![Static Badge](https://img.shields.io/badge/Python-white?style=plastic&logo=python&logoColor=%233776AB)
+![Static Badge](https://img.shields.io/badge/R-cyan?style=plastic&logo=R&logoColor=%23276DC3)
+![Static Badge](https://img.shields.io/badge/Pytorch-white?style=plastic&logo=Pytorch&logoColor=%23EE4C2C)
+![Static Badge](https://img.shields.io/badge/keras-white?style=plastic&logo=keras&logoColor=%23D00000)
+![Static Badge](https://img.shields.io/badge/Tensorflow-white?style=plastic&logo=tensorflow&logoColor=%23FF6F00)
+![Static Badge](https://img.shields.io/badge/Gitlab-black?style=plastic&logo=gitlab&logoColor=%23FC6D26&labelColor=white)
+![Static Badge](https://img.shields.io/badge/Dask-red?style=plastic&logo=Dask&logoColor=%23FC6E6B&labelColor=white)
+
+
+
+
+
 
 
 My most important projects:
