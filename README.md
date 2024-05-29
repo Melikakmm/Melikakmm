@@ -26,6 +26,7 @@
 ![Static Badge](https://img.shields.io/badge/mysql-white?logo=mysql&logoColor=%234479A1)
 
 
+[![Github](https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png)](https://www.github.com)
 
 
 
