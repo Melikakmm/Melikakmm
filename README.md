@@ -26,15 +26,15 @@
 ![Static Badge](https://img.shields.io/badge/mysql-white?logo=mysql&logoColor=%234479A1)
 
 <a href="https://pytorch.org/hub/huggingface_pytorch-transformers/">
-    <img src="https://pytorch.org/tutorials/_images/transformer_architecture.jpg" alt="Description of the image" width="70" height="70">
+    <img src="https://pytorch.org/tutorials/_images/transformer_architecture.jpg" alt="Description of the image" width="80" height="80">
 </a>
 
 <a href="https://pytorch-geometric.readthedocs.io/en/latest/">
-    <img src="https://raw.githubusercontent.com/pyg-team/pyg_sphinx_theme/master/pyg_sphinx_theme/static/img/pyg_logo.png" width="50" height="50">
+    <img src="https://raw.githubusercontent.com/pyg-team/pyg_sphinx_theme/master/pyg_sphinx_theme/static/img/pyg_logo.png" width="40" height="40">
 </a>
 
 <a href="https://www.linux.it/">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/800px-Tux.svg.png" alt="Description of the image" width="50" height="50">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/800px-Tux.svg.png" alt="Description of the image" width="40" height="40">
 </a>
 
 <a href="https://cython.readthedocs.io/en/latest/">
@@ -51,7 +51,7 @@
 </a>
 
 <a href="https://jupyter.org/">
-    <img src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg" alt="Description of the image" width="70" height="40">
+    <img src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg" alt="Description of the image" width="70" height="30">
 </a>
 
 ## My most important projects🗃️:
