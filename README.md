@@ -1,10 +1,10 @@
-# 💁🏻‍♀️ Hello, I am Melika ....
 <div style="display: flex; flex-direction: row;">
     <img src="experiment-science.gif" width="300" height="200" style="margin-right: 10px;" />
     <img src="nn.gif" width="300" height="200" style="margin-right: 10px;" />
     <img src="John-Liebler-Kinesin-Walking.webp" width="300" height="200" />
 </div>
 
+# 💁🏻‍♀️ Hello, I am Melika ....
 
 - 🔭 Presently, I am engaged in a one-year research endeavor at the University of Padova, focusing on the integration of Artificial Intelligence techniques with disordered protein structures. Additionally, I am conducting a scaling ansatz analysis on droplet size distributions within protein condensates as part of this research pursuit.
 
