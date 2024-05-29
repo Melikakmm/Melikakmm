@@ -26,7 +26,7 @@
 ![Static Badge](https://img.shields.io/badge/mysql-white?logo=mysql&logoColor=%234479A1)
 
 <a href="https://pytorch.org/hub/huggingface_pytorch-transformers/">
-    <img src="https://pytorch.org/tutorials/_images/transformer_architecture.jpg" alt="Description of the image" width="50" height="50">
+    <img src="https://pytorch.org/tutorials/_images/transformer_architecture.jpg" alt="Description of the image" width="70" height="70">
 </a>
 
 <a href="https://pytorch-geometric.readthedocs.io/en/latest/">
@@ -34,27 +34,27 @@
 </a>
 
 <a href="https://www.linux.it/">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/800px-Tux.svg.png" alt="Description of the image" width="100" height="100">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/800px-Tux.svg.png" alt="Description of the image" width="50" height="50">
 </a>
 
 <a href="https://cython.readthedocs.io/en/latest/">
-    <img src="https://cython.readthedocs.io/en/latest/_static/cythonlogo.png" alt="Description of the image" width="100" height="100">
+    <img src="https://cython.readthedocs.io/en/latest/_static/cythonlogo.png" alt="Description of the image" width="70" height="50">
 </a>
 
 <a href="https://www.python.org">
-    <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="Description of the image" width="100" height="100">
+    <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="Description of the image" width="50" height="50">
 </a>
 
 <a href="https://www.anaconda.com/">
-    <img src="https://www.anaconda.com/wp-content/uploads/2022/12/anaconda_secondary_logo.svg" alt="Description of the image" width="100" height="100">
+    <img src="https://www.anaconda.com/wp-content/uploads/2022/12/anaconda_secondary_logo.svg" alt="Description of the image" width="70" height="50">
 </a>
 
 <a href="https://code.visualstudio.com/">
-    <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="Description of the image" width="100" height="100">
+    <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="Description of the image" width="50" height="500">
 </a>
 
 <a href="https://jupyter.org/">
-    <img src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg" alt="Description of the image" width="100" height="100">
+    <img src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg" alt="Description of the image" width="70" height="50">
 </a>
 
 ## My most important projects🗃️:
