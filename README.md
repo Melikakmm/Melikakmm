@@ -50,7 +50,7 @@
 </a>
 
 <a href="https://code.visualstudio.com/">
-    <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="Description of the image" width="50" height="500">
+    <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="Description of the image" width="50" height="50">
 </a>
 
 <a href="https://jupyter.org/">
