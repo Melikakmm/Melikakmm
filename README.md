@@ -38,23 +38,20 @@
 </a>
 
 <a href="https://cython.readthedocs.io/en/latest/">
-    <img src="https://cython.readthedocs.io/en/latest/_static/cythonlogo.png" alt="Description of the image" width="70" height="50">
+    <img src="https://cython.readthedocs.io/en/latest/_static/cythonlogo.png" alt="Description of the image" width="60" height="30">
 </a>
 
-<a href="https://www.python.org">
-    <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="Description of the image" width="50" height="50">
-</a>
 
 <a href="https://www.anaconda.com/">
     <img src="https://www.anaconda.com/wp-content/uploads/2022/12/anaconda_secondary_logo.svg" alt="Description of the image" width="70" height="50">
 </a>
 
 <a href="https://code.visualstudio.com/">
-    <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="Description of the image" width="50" height="50">
+    <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="Description of the image" width="40" height="40">
 </a>
 
 <a href="https://jupyter.org/">
-    <img src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg" alt="Description of the image" width="70" height="50">
+    <img src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg" alt="Description of the image" width="70" height="40">
 </a>
 
 ## My most important projects🗃️:
