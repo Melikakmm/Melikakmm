@@ -25,6 +25,10 @@
 ![Static Badge](https://img.shields.io/badge/docker-grey?logo=docker&logoColor=%232496ED)
 ![Static Badge](https://img.shields.io/badge/mysql-white?logo=mysql&logoColor=%234479A1)
 
+<a href="https://www.github.com">
+    <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="Description of the image" width="100" height="100">
+</a>
+
 
 [![Github](https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png)](https://www.github.com)
 
