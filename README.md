@@ -82,11 +82,11 @@
 </a>
 
 <a href="https://code.visualstudio.com/">
-    <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="Description of the image" style="width: 5vw; max-height: 5vh;">
+    <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="Description of the image" style="width: 4vw; max-height: 4vh;">
 </a>
 
 <a href="https://jupyter.org/">
-    <img src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg" alt="Description of the image" style="width: 5vw; max-height: 5vh;">
+    <img src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg" alt="Description of the image" style="width: 6vw; max-height: 6vh;">
 </a>
 
 
