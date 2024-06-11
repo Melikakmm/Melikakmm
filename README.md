@@ -15,8 +15,6 @@
 ## My skills 💻:
 
 
-
-
 <a href="https://www.mysql.com/">
     <img src="https://upload.wikimedia.org/wikipedia/labs/8/8e/Mysql_logo.png" alt="Description of the image" style="width: 7vw; max-height: 7vh;">
 </a>
