@@ -16,14 +16,42 @@
 
 
 
-![Static Badge](https://img.shields.io/badge/R-cyan?style=plastic&logo=R&logoColor=%23276DC3)
-![Static Badge](https://img.shields.io/badge/Pytorch-white?style=plastic&logo=Pytorch&logoColor=%23EE4C2C)
-![Static Badge](https://img.shields.io/badge/keras-white?style=plastic&logo=keras&logoColor=%23D00000)
-![Static Badge](https://img.shields.io/badge/Tensorflow-white?style=plastic&logo=tensorflow&logoColor=%23FF6F00)
-![Static Badge](https://img.shields.io/badge/Gitlab-black?style=plastic&logo=gitlab&logoColor=%23FC6D26&labelColor=white)
-![Static Badge](https://img.shields.io/badge/Dask-red?style=plastic&logo=Dask&logoColor=%23FC6E6B&labelColor=white)
-![Static Badge](https://img.shields.io/badge/docker-grey?logo=docker&logoColor=%232496ED)
-![Static Badge](https://img.shields.io/badge/mysql-white?logo=mysql&logoColor=%234479A1)
+
+
+
+
+
+<a href="https://www.mysql.com/">
+    <img src="https://upload.wikimedia.org/wikipedia/labs/8/8e/Mysql_logo.png" alt="Description of the image" width="80" height="80">
+</a>
+
+<a href="https://www.docker.com/">
+    <img src="https://miro.medium.com/v2/resize:fit:800/format:webp/1*OARpkeBkn_Tw3vk8H769OQ.png" alt="Description of the image" width="80" height="80">
+</a>
+
+<a href="https://www.dask.org/">
+    <img src="https://numfocus.org/wp-content/uploads/2019/08/Dask-Logo-300x300-1.png" alt="Description of the image" width="80" height="80">
+</a>
+
+<a href="https://about.gitlab.com/">
+    <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*YjOtv5OOEP744YTdzBxWsw.png" alt="Description of the image" width="80" height="80">
+</a>
+
+<a href="https://www.tensorflow.org/">
+    <img src="https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/formation-tensorflow.jpg" alt="Description of the image" width="80" height="80">
+</a>
+
+<a href="https://keras.io/">
+    <img src="https://static.javatpoint.com/tutorial/keras/images/keras.png" alt="Description of the image" width="80" height="80">
+</a>
+
+<a href="https://pytorch.org/">
+    <img src="https://miro.medium.com/v2/resize:fit:1382/format:webp/1*TmPTEZkQ4kBiQqZlwVH0MQ.png" alt="Description of the image" width="80" height="80">
+</a>
+
+<a href="https://www.r-project.org/">
+    <img src="https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/R-900x0.png" alt="Description of the image" width="80" height="80">
+</a>
 
 <a href="https://www.python.org/">
     <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Description of the image" width="80" height="80">
