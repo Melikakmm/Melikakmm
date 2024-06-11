@@ -44,11 +44,11 @@
 </a>
 
 <a href="https://www.r-project.org/">
-    <img src="https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/R-900x0.png" alt="Description of the image" style="width: 7vw; max-height: 7vh;">
+    <img src="https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/R-900x0.png" alt="Description of the image" style="width: 8vw; max-height: 8vh;">
 </a>
 
 <a href="https://www.python.org/">
-    <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Description of the image" style="width: 7vw; max-height: 7vh;">
+    <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Description of the image" style="width: 8vw; max-height: 8vh;">
 </a>
 
 <a href="https://isocpp.org/">
@@ -77,7 +77,7 @@
 
 
 <a href="https://www.anaconda.com/">
-    <img src="https://www.anaconda.com/wp-content/uploads/2022/12/anaconda_secondary_logo.svg" alt="Description of the image" style="width: 7vw; max-height: 7vh;">
+    <img src="https://www.anaconda.com/wp-content/uploads/2022/12/anaconda_secondary_logo.svg" alt="Description of the image" style="width: 8vw; max-height: 8vh;">
 </a>
 
 <a href="https://code.visualstudio.com/">
