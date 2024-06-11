@@ -93,7 +93,7 @@
 
 ## My most important projects🗃️:
 
-1. **Scaling Ansatzy for Protein Condensate Droplet Size Distributions**: *The GitHub repositories associated with these projects are presently set to private access. This confidentiality has been implemented at the team's request, primarily in anticipation of forthcoming publications*.
+1. **Scaling Ansatz for Protein Condensate Droplet Size Distributions**: *The GitHub repositories associated with these projects are presently set to private access. This confidentiality has been implemented at the team's request, primarily in anticipation of forthcoming publications*.
    
 2. **DeepDisorder**: *The GitHub repositories associated with these projects are presently set to private access. This confidentiality has been implemented at the team's request, primarily in anticipation of forthcoming publications*.
 
