@@ -93,17 +93,19 @@
 
 ## My most important projects🗃️:
 
-1. **My research projects**: *The GitHub repositories associated with these projects are presently set to private access. This confidentiality has been implemented at the team's request, primarily in anticipation of forthcoming publications*.
- 
-2. [**My master's thesis**](https://github.com/Melikakmm/Master_Thesis/tree/main)
-3. [**Translation For Different Languages Using Transformers**(still ongoing)](https://github.com/Melikakmm/NLP_Translation)
-4.  [**Gaussian Regression interatomic potentials**](https://github.com/Melikakmm/GPR_fitting_interactive_potential)
-5. [**Audio classification**](https://github.com/Melikakmm/CNN-for-sound-classification)
-6. [**Graph Neural Network for Frustration index**(still ongoing)](https://github.com/Melikakmm/GNN_Frustration)
-7. [**Cython/Python wrapper for SEVN**](https://github.com/Melikakmm/SEVN_PYTHON_WRAPPER)
-8. [**The FPGA Project With VHDL**](https://github.com/Melikakmm/FPGA)
-9. [**Low-Mass-X-ray-Binaries**](https://github.com/Melikakmm/Low-Mass-X-ray-Binaries)
-10. [**Volatility-carry-trading-strategy**](https://github.com/Melikakmm/Volatility-carry-trading-strategy)
-    
-10.[**Advanced Statistics With R**](https://github.com/Melikakmm/R_Projects)
+1. **Scaling Ansatzy for Protein Condensate Droplet Size Distributions**: *The GitHub repositories associated with these projects are presently set to private access. This confidentiality has been implemented at the team's request, primarily in anticipation of forthcoming publications*.
+   
+2. **DeepDisorder**: *The GitHub repositories associated with these projects are presently set to private access. This confidentiality has been implemented at the team's request, primarily in anticipation of forthcoming publications*.
+
+3. [**My master's thesis**](https://github.com/Melikakmm/Master_Thesis/tree/main)
+4. [**Translation For Different Languages Using Transformers**(still ongoing)](https://github.com/Melikakmm/NLP_Translation)
+5. [**DeepJoke** (Upcoming project)]
+6. [**Gaussian Regression interatomic potentials**](https://github.com/Melikakmm/GPR_fitting_interactive_potential)
+7. [**Audio classification**](https://github.com/Melikakmm/CNN-for-sound-classification)
+8. [**Graph Neural Network for Frustration index**(still ongoing)](https://github.com/Melikakmm/GNN_Frustration)
+9. [**Cython/Python wrapper for SEVN**](https://github.com/Melikakmm/SEVN_PYTHON_WRAPPER)
+10. [**The FPGA Project With VHDL**](https://github.com/Melikakmm/FPGA)
+11. [**Low-Mass-X-ray-Binaries**](https://github.com/Melikakmm/Low-Mass-X-ray-Binaries)
+12. [**Volatility-carry-trading-strategy**](https://github.com/Melikakmm/Volatility-carry-trading-strategy)
+12.[**Advanced Statistics With R**](https://github.com/Melikakmm/R_Projects)
 
