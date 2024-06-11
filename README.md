@@ -1,5 +1,5 @@
 <div style="display: flex; flex-direction: row;">
-    <img src="experiment-science.gif" width="38%" style="margin-right: 10px;" />
+    <img src="experiment-science.gif" width="39%" style="margin-right: 10px;" />
     <img src="nn.gif" width="30%" style="margin-right: 10px;" />
     <img src="John-Liebler-Kinesin-Walking.webp" width="30%" />
 </div>
