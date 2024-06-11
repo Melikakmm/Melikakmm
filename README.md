@@ -13,7 +13,7 @@
 [![](https://visitcount.itsvg.in/api?id=MELIKAKMM&label=Profile%20Views&color=0&icon=0&pretty=true)](https://visitcount.itsvg.in)
 
 ## My skills 💻:
-![GitHub](https://img.shields.io/badge/Github-purple?style=plastic&logo=github)
+
 ![Static Badge](https://img.shields.io/badge/C%2B%2B-white?style=plastic&logo=cplusplus&logoColor=%2300599C)
 ![Static Badge](https://img.shields.io/badge/Python-white?style=plastic&logo=python&logoColor=%233776AB)
 ![Static Badge](https://img.shields.io/badge/R-cyan?style=plastic&logo=R&logoColor=%23276DC3)
@@ -24,6 +24,10 @@
 ![Static Badge](https://img.shields.io/badge/Dask-red?style=plastic&logo=Dask&logoColor=%23FC6E6B&labelColor=white)
 ![Static Badge](https://img.shields.io/badge/docker-grey?logo=docker&logoColor=%232496ED)
 ![Static Badge](https://img.shields.io/badge/mysql-white?logo=mysql&logoColor=%234479A1)
+
+<a href="https://github.com/">
+    <img src="github-mark.png" alt="Description of the image" width="80" height="80">
+</a>
 
 <a href="https://pytorch.org/hub/huggingface_pytorch-transformers/">
     <img src="https://pytorch.org/tutorials/_images/transformer_architecture.jpg" alt="Description of the image" width="80" height="80">
