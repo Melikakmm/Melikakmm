@@ -14,8 +14,8 @@
 
 ## My skills 💻:
 
-![Static Badge](https://img.shields.io/badge/C%2B%2B-white?style=plastic&logo=cplusplus&logoColor=%2300599C)
-![Static Badge](https://img.shields.io/badge/Python-white?style=plastic&logo=python&logoColor=%233776AB)
+
+
 ![Static Badge](https://img.shields.io/badge/R-cyan?style=plastic&logo=R&logoColor=%23276DC3)
 ![Static Badge](https://img.shields.io/badge/Pytorch-white?style=plastic&logo=Pytorch&logoColor=%23EE4C2C)
 ![Static Badge](https://img.shields.io/badge/keras-white?style=plastic&logo=keras&logoColor=%23D00000)
@@ -24,6 +24,10 @@
 ![Static Badge](https://img.shields.io/badge/Dask-red?style=plastic&logo=Dask&logoColor=%23FC6E6B&labelColor=white)
 ![Static Badge](https://img.shields.io/badge/docker-grey?logo=docker&logoColor=%232496ED)
 ![Static Badge](https://img.shields.io/badge/mysql-white?logo=mysql&logoColor=%234479A1)
+
+<a href="https://www.python.org/">
+    <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Description of the image" width="80" height="80">
+</a>
 
 <a href="https://isocpp.org/">
     <img src="https://logowik.com/content/uploads/images/911_c_logo.jpg" alt="Description of the image" width="80" height="80">
