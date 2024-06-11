@@ -1,8 +1,9 @@
-<div style="display: flex; flex-direction: row;">
+<div style="display: flex; flex-direction: row; width: 33%;">
     <img src="experiment-science.gif" width="250" height="200" style="margin-right: 10px;" />
     <img src="nn.gif" width="250" height="200" style="margin-right: 10px;" />
     <img src="John-Liebler-Kinesin-Walking.webp" width="250" height="200" />
 </div>
+
 
 # 💁🏻‍♀️ Hello, I am Melika ....
 
