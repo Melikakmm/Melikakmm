@@ -26,7 +26,7 @@
 ![Static Badge](https://img.shields.io/badge/mysql-white?logo=mysql&logoColor=%234479A1)
 
 <a href="https://isocpp.org/">
-    <img src="https://en.wikipedia.org/wiki/C%2B%2B#/media/File:ISO_C++_Logo.svg" alt="Description of the image" width="80" height="80">
+    <img src="https://logowik.com/content/uploads/images/911_c_logo.jpg" alt="Description of the image" width="80" height="80">
 </a>
 
 <a href="https://github.com/">
