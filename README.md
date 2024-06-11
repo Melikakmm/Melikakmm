@@ -45,7 +45,7 @@
 </a>
 
 <a href="https://www.r-project.org/">
-    <img src="https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/R-900x0.png" alt="Description of the image" style="width: 7vw; max-height: 7vh;">
+    <img src="https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/R-900x0.png" alt="Description of the image" style="width: 8vw; max-height: 8vh;">
 </a>
 
 <a href="https://www.python.org/">
