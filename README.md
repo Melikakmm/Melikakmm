@@ -29,11 +29,11 @@
 </a>
 
 <a href="https://about.gitlab.com/">
-    <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*YjOtv5OOEP744YTdzBxWsw.png" alt="Description of the image" style="width: 5vw; max-height: 5vh;">
+    <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*YjOtv5OOEP744YTdzBxWsw.png" alt="Description of the image" style="width: 7vw; max-height: 7vh;">
 </a>
 
 <a href="https://www.tensorflow.org/">
-    <img src="https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/formation-tensorflow.jpg" alt="Description of the image" style="width: 5vw; max-height: 5vh;">
+    <img src="https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/formation-tensorflow.jpg" alt="Description of the image" style="width: 7vw; max-height: 7vh;">
 </a>
 
 <a href="https://keras.io/">
