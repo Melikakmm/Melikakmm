@@ -97,7 +97,7 @@
    
 2. **DeepDisorder**: *The GitHub repositories associated with these projects are presently set to private access. This confidentiality has been implemented at the team's request, primarily in anticipation of forthcoming publications*.
 
-3. [**My master's thesis**](https://github.com/Melikakmm/Master_Thesis/tree/main)
+3. [**My Master's thesis**](https://github.com/Melikakmm/Master_Thesis/tree/main)
 4. [**Translation For Different Languages Using Transformers**(still ongoing)](https://github.com/Melikakmm/NLP_Translation)
 5. **DeepJoke** (Upcoming project)
 6. [**Gaussian Regression interatomic potentials**](https://github.com/Melikakmm/GPR_fitting_interactive_potential)
