@@ -19,7 +19,7 @@
 
 [![](https://visitcount.itsvg.in/api?id=MELIKAKMM&label=Profile%20Views&color=0&icon=0&pretty=true)](https://visitcount.itsvg.in)
 
-## My skills 💻:
+# My skills 💻:
 
 
 <a href="https://www.mysql.com/">
