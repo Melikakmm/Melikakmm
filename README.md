@@ -101,12 +101,12 @@
 4. [**Translation For Different Languages Using Transformers**(still ongoing)](https://github.com/Melikakmm/NLP_Translation)
 5. **DeepJoke** (Upcoming project)
 6. [**Gaussian Regression interatomic potentials**](https://github.com/Melikakmm/GPR_fitting_interactive_potential)
-7. [**Audio classification**](https://github.com/Melikakmm/CNN-for-sound-classification)
+7. [**Audio classification using CNN**](https://github.com/Melikakmm/CNN-for-sound-classification)
 8. [**Graph Neural Network for Frustration index**(still ongoing)](https://github.com/Melikakmm/GNN_Frustration)
 9. [**Cython/Python wrapper for SEVN**](https://github.com/Melikakmm/SEVN_PYTHON_WRAPPER)
 10. [**The FPGA Project With VHDL**](https://github.com/Melikakmm/FPGA)
 11. [**Low-Mass-X-ray-Binaries**](https://github.com/Melikakmm/Low-Mass-X-ray-Binaries)
-12. [**Volatility-carry-trading-strategy**](https://github.com/Melikakmm/Volatility-carry-trading-strategy)
+12. [**AI for Volatility-carry-trading-strategy**](https://github.com/Melikakmm/Volatility-carry-trading-strategy)
 
 13.[**Advanced Statistics With R**](https://github.com/Melikakmm/R_Projects)
 
