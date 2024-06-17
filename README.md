@@ -12,7 +12,8 @@
 - ⚡ Alongside my background in **theoretical physics**, and **mathematics**, I have received comprehensive training in various aspects of computation, including **machine learning**, **deep learning**, **data analysis**, **data management**, and **distributed computing**.
 
 
-# <img src="CV.gif" alt="welcome" width="120"/>[My CV](https://github.com/Melikakmm/CV/blob/main/MelikaCV.pdf)
+# [My CV](https://github.com/Melikakmm/CV/blob/main/MelikaCV.pdf)
+<img src="CV.gif" alt="welcome" width="200"/>
 
 
 
