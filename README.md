@@ -13,7 +13,10 @@
 
 
 # [My CV](https://github.com/Melikakmm/CV/blob/main/MelikaCV.pdf)
-<img src="CV.gif" alt="welcome" width="200"/>
+<a href="https://github.com/Melikakmm/CV/blob/main/MelikaCV.pdf">
+    <img src="CV.gif" alt="welcome" width="200"/>
+</a>
+
 
 
 
