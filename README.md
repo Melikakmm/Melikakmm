@@ -2,7 +2,7 @@
     <img src="experiment-science.gif" width="26%" style="margin-right: 10px;" />
     <img src="nn.gif" width="20%" style="margin-right: 10px;" />
     <img src="reactor.gif" width="35%" height="45%" style="margin-right: 20px;" />
-    <img src="John-Liebler-Kinesin-Walking.webp" width="20%" style="margin-right: 20px;" />
+    <img src="John-Liebler-Kinesin-Walking.webp" width="18%" style="margin-right: 20px;" />
 </div>
 
 
