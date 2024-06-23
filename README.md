@@ -3,7 +3,7 @@
     <img src="nn.gif" width="29%" style="margin-right: 10px;" />
 </div>
 
-%%%%%% <img src="John-Liebler-Kinesin-Walking.webp" width="29%" />
+%<img src="John-Liebler-Kinesin-Walking.webp" width="29%" />
 
 
 # 💁🏻‍♀️ Hello, I am Melika ....
