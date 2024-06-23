@@ -1,7 +1,7 @@
 <div style="display: flex; flex-direction: row;">
     <img src="experiment-science.gif" width="38%" style="margin-right: 10px;" />
     <img src="nn.gif" width="29%" style="margin-right: 10px;" />
-    <img src="fusion.gif" width="29%" />
+    <img src="fusion.gif" width="29%" style="margin-right: 10px;" />
 </div>
 
 
