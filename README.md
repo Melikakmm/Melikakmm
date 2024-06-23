@@ -1,6 +1,6 @@
 <div style="display: flex; flex-direction: row;">
-    <img src="experiment-science.gif" width="38%" style="margin-right: 10px;" />
-    <img src="nn.gif" width="22%" style="margin-right: 10px;" />
+    <img src="experiment-science.gif" width="30%" style="margin-right: 10px;" />
+    <img src="nn.gif" width="20%" style="margin-right: 10px;" />
     <img src="reactor.gif" width="35%" height="45%" style="margin-right: 20px;" />
 </div>
 
