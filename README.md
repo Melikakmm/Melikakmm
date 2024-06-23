@@ -1,8 +1,8 @@
 <div style="display: flex; flex-direction: row;">
-    <img src="experiment-science.gif" width="26%" style="margin-right: 10px;" />
+    <img src="experiment-science.gif" width="24%" style="margin-right: 10px;" />
     <img src="nn.gif" width="19%" style="margin-right: 10px;" />
-    <img src="reactor.gif" width="35%" height="45%" style="margin-right: 20px;" />
-    <img src="John-Liebler-Kinesin-Walking.webp" width="18%" style="margin-right: 20px;" />
+    <img src="reactor.gif" width="33%" height="45%" style="margin-right: 20px;" />
+    <img src="John-Liebler-Kinesin-Walking.webp" width="19%" style="margin-right: 20px;" />
 </div>
 
 
