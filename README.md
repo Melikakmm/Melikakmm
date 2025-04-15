@@ -1,34 +1,45 @@
-<div style="display: flex; flex-direction: row;">
-    <img src="experiment-science.gif" width="25%" style="margin-right: 10px;" />
-    <img src="nn.gif" width="19%" style="margin-right: 10px;" />
-    <img src="reactor.gif" width="33%" height="46%" style="margin-right: 20px;" />
-    <img src="John-Liebler-Kinesin-Walking.webp" width="19%" style="margin-right: 20px;" />
+<div align="center">
+    <img src="experiment-science.gif" width="22%" style="margin: 10px;" />
+    <img src="nn.gif" width="18%" style="margin: 10px;" />
+    <img src="reactor.gif" width="30%" style="margin: 10px;" />
+    <img src="John-Liebler-Kinesin-Walking.webp" width="18%" style="margin: 10px;" />
 </div>
 
+---
 
+# 👋 Hi, I’m **Melika**  
 
+> _Exploring the complexity of **protein–protein interactions** through the lens of AI and computational science._  
 
-# 💁🏻‍♀️ Hello, I am Melika ....
+🎓 I’m currently a **PhD Fellow** at the **University of Copenhagen** in the **DSDD Group**,  
+where I blend **artificial intelligence** with **structural biology** to decode the language of proteins.
 
-- Passionate about proteins and powered by AI! I’m currently pursuing my **PhD** at **the University of Copenhagen** within the **DSDD** group, where I explore the fascinating world of protein–protein interactions through the lens of machine learning and artificial intelligence.
+With a solid foundation in **theoretical physics** and **mathematics**,  
+I’ve evolved into a researcher skilled in:
 
-- ⚡ Alongside my background in **theoretical physics**, and **mathematics**, I have received comprehensive training in various aspects of computation, including **machine learning**, **deep learning**, **data analysis**, **data management**, and **distributed computing**.
+- 💡 Machine Learning & Deep Learning  
+- 📊 Data Science & Statistical Analysis  
+- 🧬 Protein Structure Prediction  
+- 🐍 Python, R, C++  
+- ☁️ Distributed Computing & Cloud Toolkits  
 
+---
 
-# [My CV](https://github.com/Melikakmm/CV/blob/main/MelikaCV.pdf)
+## 📄 [Download My CV](https://github.com/Melikakmm/CV/blob/main/MelikaCV.pdf)
+
 <a href="https://github.com/Melikakmm/CV/blob/main/MelikaCV.pdf">
-    <img src="CV.gif" alt="welcome" width="200"/>
+    <img src="CV.gif" alt="My CV" width="200" />
 </a>
 
-
-
+---
 
 [![](https://visitcount.itsvg.in/api?id=MELIKAKMM&label=Profile%20Views&color=0&icon=0&pretty=true)](https://visitcount.itsvg.in)
 
-# My skills 💻:
+---
 
+## 💻 Tech Stack & Tools
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: center;">
+<div style="display: flex; flex-wrap: wrap; gap: 15px; align-items: center; justify-content: center;">
     <a href="https://www.mysql.com/"><img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="MySQL" style="height: 50px;"></a>
     <a href="https://www.docker.com/"><img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker" style="height: 50px;"></a>
     <a href="https://www.dask.org/"><img src="https://numfocus.org/wp-content/uploads/2019/08/Dask-Logo-300x300-1.png" alt="Dask" style="height: 50px;"></a>
@@ -49,24 +60,31 @@
     <a href="https://jupyter.org/"><img src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg" alt="Jupyter" style="height: 50px;"></a>
 </div>
 
+---
 
+## 🧪 Featured Projects
 
-## My most important projects🗃️:
+| 📂 Project | 🔗 Link |
+|------------|---------|
+| Scaling Ansatz for Protein Condensate Droplet Size Distributions | *Private — pending publication* |
+| DeepDisorder | *Private — pending publication* |
+| My Master's Thesis | [View Repository](https://github.com/Melikakmm/Master_Thesis/tree/main) |
+| Translation For Different Languages Using Transformers *(Ongoing)* | [Explore Project](https://github.com/Melikakmm/NLP_Translation) |
+| DeepJoke *(Upcoming)* | _Coming soon_ |
+| Gaussian Regression for Interatomic Potentials | [Explore Project](https://github.com/Melikakmm/GPR_fitting_interactive_potential) |
+| Audio Classification using CNN | [Explore Project](https://github.com/Melikakmm/CNN-for-sound-classification) |
+| Graph Neural Network for Frustration Index *(Ongoing)* | [Explore Project](https://github.com/Melikakmm/GNN_Frustration) |
+| Cython/Python Wrapper for SEVN | [Explore Project](https://github.com/Melikakmm/SEVN_PYTHON_WRAPPER) |
+| The FPGA Project with VHDL | [Explore Project](https://github.com/Melikakmm/FPGA) |
+| Low-Mass X-ray Binaries | [Explore Project](https://github.com/Melikakmm/Low-Mass-X-ray-Binaries) |
+| AI for Volatility-Carry Trading Strategy | [Explore Project](https://github.com/Melikakmm/Volatility-carry-trading-strategy) |
+| Advanced Statistics With R | [Explore Project](https://github.com/Melikakmm/R_Projects) |
 
-1. **Scaling Ansatz for Protein Condensate Droplet Size Distributions**: *The GitHub repositories associated with these projects are presently set to private access. This confidentiality has been implemented at the team's request, primarily in anticipation of forthcoming publications*.
-   
-2. **DeepDisorder**: *The GitHub repositories associated with these projects are presently set to private access. This confidentiality has been implemented at the team's request, primarily in anticipation of forthcoming publications*.
+---
 
-3. [**My Master's thesis**](https://github.com/Melikakmm/Master_Thesis/tree/main)
-4. [**Translation For Different Languages Using Transformers**(still ongoing)](https://github.com/Melikakmm/NLP_Translation)
-5. **DeepJoke** (Upcoming project)
-6. [**Gaussian Regression interatomic potentials**](https://github.com/Melikakmm/GPR_fitting_interactive_potential)
-7. [**Audio classification using CNN**](https://github.com/Melikakmm/CNN-for-sound-classification)
-8. [**Graph Neural Network for Frustration index**(still ongoing)](https://github.com/Melikakmm/GNN_Frustration)
-9. [**Cython/Python wrapper for SEVN**](https://github.com/Melikakmm/SEVN_PYTHON_WRAPPER)
-10. [**The FPGA Project With VHDL**](https://github.com/Melikakmm/FPGA)
-11. [**Low-Mass-X-ray-Binaries**](https://github.com/Melikakmm/Low-Mass-X-ray-Binaries)
-12. [**AI for Volatility-carry-trading-strategy**](https://github.com/Melikakmm/Volatility-carry-trading-strategy)
+✨ _Thanks for stopping by!_  
+_Always curious, always learning._  
+💌 Feel free to connect & collaborate!
 
-13.[**Advanced Statistics With R**](https://github.com/Melikakmm/R_Projects)
+---
 
