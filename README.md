@@ -20,7 +20,7 @@ I’ve evolved into a researcher skilled in:
 - 💡 Machine Learning & Deep Learning  
 - 📊 Data Science & Statistical Analysis  
 - 🧬 Protein Structure Prediction  
-- 🐍 Python, R, C++  
+- 🐍 Python, R, C++, Cython 
 - ☁️ Distributed Computing & Cloud Toolkits  
 
 ---
