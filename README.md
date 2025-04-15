@@ -1,8 +1,8 @@
-<div align="center">
-    <img src="experiment-science.gif" width="22%" style="margin: 10px;" />
-    <img src="nn.gif" width="18%" style="margin: 10px;" />
-    <img src="reactor.gif" width="30%" style="margin: 10px;" />
-    <img src="John-Liebler-Kinesin-Walking.webp" width="18%" style="margin: 10px;" />
+<div style="display: flex; flex-direction: row;">
+    <img src="experiment-science.gif" width="25%" style="margin-right: 10px;" />
+    <img src="nn.gif" width="19%" style="margin-right: 10px;" />
+    <img src="reactor.gif" width="33%" height="46%" style="margin-right: 20px;" />
+    <img src="John-Liebler-Kinesin-Walking.webp" width="19%" style="margin-right: 20px;" />
 </div>
 
 ---
