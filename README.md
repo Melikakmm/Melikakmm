@@ -28,78 +28,26 @@
 # My skills 💻:
 
 
-<a href="https://www.mysql.com/">
-    <img src="https://upload.wikimedia.org/wikipedia/labs/8/8e/Mysql_logo.png" alt="Description of the image" style="width: 5vw; max-height: 5vh;">
-</a>
-
-<a href="https://www.docker.com/">
-    <img src="https://miro.medium.com/v2/resize:fit:800/format:webp/1*OARpkeBkn_Tw3vk8H769OQ.png" alt="Description of the image" style="width: 5vw; max-height: 5vh;">
-</a>
-
-<a href="https://www.dask.org/">
-    <img src="https://numfocus.org/wp-content/uploads/2019/08/Dask-Logo-300x300-1.png" alt="Description of the image" style="width: 5vw; max-height: 5vh;">
-</a>
-
-<a href="https://about.gitlab.com/">
-    <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*YjOtv5OOEP744YTdzBxWsw.png" alt="Description of the image" style="width: 7vw; max-height: 7vh;">
-</a>
-
-<a href="https://www.tensorflow.org/">
-    <img src="https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/formation-tensorflow.jpg" alt="Description of the image" style="width: 7vw; max-height: 7vh;">
-</a>
-
-<a href="https://keras.io/">
-    <img src="https://static.javatpoint.com/tutorial/keras/images/keras.png" alt="Description of the image" style="width: 5vw; max-height: 5vh;">
-</a>
-
-<a href="https://pytorch.org/">
-    <img src="https://miro.medium.com/v2/resize:fit:1382/format:webp/1*TmPTEZkQ4kBiQqZlwVH0MQ.png" alt="Description of the image" style="width: 5vw; max-height: 5vh;">
-</a>
-
-<a href="https://www.r-project.org/">
-    <img src="https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/R-900x0.png" alt="Description of the image" style="width: 8vw; max-height: 8vh;">
-</a>
-
-<a href="https://www.python.org/">
-    <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Description of the image" style="width: 7vw; max-height: 7vh;">
-</a>
-
-<a href="https://isocpp.org/">
-    <img src="https://logowik.com/content/uploads/images/911_c_logo.jpg" alt="Description of the image" style="width: 6vw; max-height: 6vh;">
-</a>
-
-<a href="https://github.com/">
-    <img src="github-mark.png" alt="Description of the image" style="width: 5vw; max-height: 5vh;">
-</a>
-
-<a href="https://pytorch.org/hub/huggingface_pytorch-transformers/">
-    <img src="https://pytorch.org/tutorials/_images/transformer_architecture.jpg" alt="Description of the image" style="width: 5vw; max-height: 5vh;">
-</a>
-
-<a href="https://pytorch-geometric.readthedocs.io/en/latest/">
-    <img src="https://raw.githubusercontent.com/pyg-team/pyg_sphinx_theme/master/pyg_sphinx_theme/static/img/pyg_logo.png" style="width: 5vw; max-height: 5vh;">
-</a>
-
-<a href="https://www.linux.it/">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/800px-Tux.svg.png" alt="Description of the image" style="width: 5vw; max-height: 5vh;">
-</a>
-
-<a href="https://cython.readthedocs.io/en/latest/">
-    <img src="https://cython.readthedocs.io/en/latest/_static/cythonlogo.png" alt="Description of the image" style="width: 5vw; max-height: 5vh;">
-</a>
-
-
-<a href="https://www.anaconda.com/">
-    <img src="https://www.anaconda.com/wp-content/uploads/2022/12/anaconda_secondary_logo.svg" alt="Description of the image" style="width: 7vw; max-height: 7vh;">
-</a>
-
-<a href="https://code.visualstudio.com/">
-    <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="Description of the image" style="width: 4vw; max-height: 4vh;">
-</a>
-
-<a href="https://jupyter.org/">
-    <img src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg" alt="Description of the image" style="width: 6vw; max-height: 6vh;">
-</a>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: center;">
+    <a href="https://www.mysql.com/"><img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="MySQL" style="height: 50px;"></a>
+    <a href="https://www.docker.com/"><img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker" style="height: 50px;"></a>
+    <a href="https://www.dask.org/"><img src="https://numfocus.org/wp-content/uploads/2019/08/Dask-Logo-300x300-1.png" alt="Dask" style="height: 50px;"></a>
+    <a href="https://about.gitlab.com/"><img src="https://about.gitlab.com/images/press/logo/png/gitlab-logo-500.png" alt="GitLab" style="height: 50px;"></a>
+    <a href="https://www.tensorflow.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow" style="height: 50px;"></a>
+    <a href="https://keras.io/"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" alt="Keras" style="height: 50px;"></a>
+    <a href="https://pytorch.org/"><img src="https://pytorch.org/assets/images/pytorch-logo.png" alt="PyTorch" style="height: 50px;"></a>
+    <a href="https://www.r-project.org/"><img src="https://www.r-project.org/logo/Rlogo.png" alt="R" style="height: 50px;"></a>
+    <a href="https://www.python.org/"><img src="https://www.python.org/static/community_logos/python-logo.png" alt="Python" style="height: 50px;"></a>
+    <a href="https://isocpp.org/"><img src="https://isocpp.org/assets/images/cpp_logo.png" alt="C++" style="height: 50px;"></a>
+    <a href="https://github.com/"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="height: 50px;"></a>
+    <a href="https://pytorch.org/hub/huggingface_pytorch-transformers/"><img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Huggingface Transformers" style="height: 50px;"></a>
+    <a href="https://pytorch-geometric.readthedocs.io/en/latest/"><img src="https://raw.githubusercontent.com/pyg-team/pyg_sphinx_theme/master/pyg_sphinx_theme/static/img/pyg_logo.png" alt="PyTorch Geometric" style="height: 50px;"></a>
+    <a href="https://www.linux.it/"><img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" style="height: 50px;"></a>
+    <a href="https://cython.readthedocs.io/en/latest/"><img src="https://cython.readthedocs.io/en/latest/_static/cythonlogo.png" alt="Cython" style="height: 50px;"></a>
+    <a href="https://www.anaconda.com/"><img src="https://www.anaconda.com/wp-content/uploads/2022/12/anaconda_secondary_logo.svg" alt="Anaconda" style="height: 50px;"></a>
+    <a href="https://code.visualstudio.com/"><img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="VSCode" style="height: 50px;"></a>
+    <a href="https://jupyter.org/"><img src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg" alt="Jupyter" style="height: 50px;"></a>
+</div>
 
 
 
