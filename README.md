@@ -12,7 +12,7 @@
 > _Exploring the complexity of **protein–protein interactions** through the lens of AI and computational science._  
 
 🎓 I’m currently a **PhD Fellow** at the **University of Copenhagen** in the **DSDD Group**,  
-where I blend **artificial intelligence** with **structural biology** to decode the language of proteins.
+where I blend **artificial intelligence** with **structural biology** to understand protein-protein interactions.
 
 With a solid foundation in **theoretical physics** and **mathematics**,  
 I’ve evolved into a researcher skilled in:
