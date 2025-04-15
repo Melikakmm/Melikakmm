@@ -10,7 +10,7 @@
 
 # 💁🏻‍♀️ Hello, I am Melika ....
 
-- Passionate about proteins and powered by AI! I’m currently pursuing my **PhD** at **the University of Copenhagen** within the DSDD group, where I explore the fascinating world of protein–protein interactions through the lens of machine learning and artificial intelligence.
+- Passionate about proteins and powered by AI! I’m currently pursuing my **PhD** at **the University of Copenhagen** within the **DSDD** group, where I explore the fascinating world of protein–protein interactions through the lens of machine learning and artificial intelligence.
 
 - ⚡ Alongside my background in **theoretical physics**, and **mathematics**, I have received comprehensive training in various aspects of computation, including **machine learning**, **deep learning**, **data analysis**, **data management**, and **distributed computing**.
 
