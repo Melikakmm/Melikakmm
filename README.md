@@ -10,7 +10,7 @@
 
 # 💁🏻‍♀️ Hello, I am Melika ....
 
-- 🔭 Presently, I am engaged in a one-year research endeavor at the University of Padova, focusing on the integration of Artificial Intelligence techniques with disordered protein structures. Additionally, I am conducting a scaling ansatz analysis on droplet size distributions in protein condensates as part of this research pursuit.
+- Passionate about proteins and powered by AI! I’m currently pursuing my **PhD** at **the University of Copenhagen** within the DSDD group, where I explore the fascinating world of protein–protein interactions through the lens of machine learning and artificial intelligence.
 
 - ⚡ Alongside my background in **theoretical physics**, and **mathematics**, I have received comprehensive training in various aspects of computation, including **machine learning**, **deep learning**, **data analysis**, **data management**, and **distributed computing**.
 
