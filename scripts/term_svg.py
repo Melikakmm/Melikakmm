@@ -48,17 +48,12 @@ def _defs():
     )
 
 
-def build_svg(rows, out_path, title=None, fade_rows=None):
+def build_svg(rows, out_path, title=None):
     """rows: list of lines, each line a list of (text, color) segments.
 
     A segment's color may be a plain hex string, or the tuple (color, "glow")
     to render that run with the soft glow filter (use sparingly).
-
-    fade_rows: optional set of row indices that fade in sequentially (a
-    one-shot "boot sequence" reveal) instead of rendering static/instant.
     """
-    fade_rows = fade_rows or set()
-    fade_order = sorted(fade_rows)
     max_len = max(sum(len(seg[0]) for seg in row) for row in rows) if rows else 0
     width = int(PAD_X * 2 + max_len * CHAR_WIDTH)
     height = int(PAD_TOP + len(rows) * LINE_HEIGHT + PAD_BOTTOM)
@@ -114,15 +109,7 @@ def build_svg(rows, out_path, title=None, fade_rows=None):
             else:
                 spans.append(f'<tspan {attrs}>{esc}</tspan>')
         text_body = "".join(spans)
-        if i in fade_rows:
-            delay = 0.16 * fade_order.index(i)
-            parts.append(
-                f'<text x="{PAD_X}" y="{y}" xml:space="preserve" opacity="0">{text_body}'
-                f'<animate attributeName="opacity" from="0" to="1" begin="{delay:.2f}s" '
-                f'dur="0.35s" fill="freeze" /></text>'
-            )
-        else:
-            parts.append(f'<text x="{PAD_X}" y="{y}" xml:space="preserve">{text_body}</text>')
+        parts.append(f'<text x="{PAD_X}" y="{y}" xml:space="preserve">{text_body}</text>')
 
     parts.append("</svg>")
     svg = "\n".join(parts)
@@ -180,9 +167,7 @@ def build_hero_svg(out_path="assets/hero.svg"):
 
 
 def whoami_block():
-    """Returns (rows, fade_rows) — the first few lines are a one-shot
-    boot-sequence that fades in on load, before settling into the
-    static whoami/ps aux content."""
+    """A fake boot log, then the usual whoami/origin-story/ps-aux content."""
     prompt = [("melika@ucph", GREEN), (":", FG), ("~", CYAN), ("$ ", FG)]
     boot = [
         [("[ OK ]", GREEN), (" mounting /dev/curiosity", DIM)],
@@ -214,9 +199,7 @@ def whoami_block():
         [],
         prompt + [("█", GREEN, "glow")],
     ]
-    rows = boot + rest
-    fade_rows = set(range(len(boot)))
-    return rows, fade_rows
+    return boot + rest
 
 
 def lsquests_block():
@@ -363,8 +346,7 @@ def build_graph_svg(out_path="assets/graph.svg"):
 if __name__ == "__main__":
     joke = sys.argv[1] if len(sys.argv) > 1 else "Why do programmers prefer dark mode? Because light attracts bugs."
     build_hero_svg("assets/hero.svg")
-    whoami_rows, whoami_fade = whoami_block()
-    build_svg(whoami_rows, "assets/term-whoami.svg", title="melika@ucph — whoami.sh", fade_rows=whoami_fade)
+    build_svg(whoami_block(), "assets/term-whoami.svg", title="melika@ucph — whoami.sh")
     build_svg(lsquests_block(), "assets/term-lsquests.svg", title="side_quests/")
     build_svg(neofetch_block(), "assets/term-neofetch.svg", title="melika@ucph — neofetch")
     build_graph_svg("assets/graph.svg")
