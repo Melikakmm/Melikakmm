@@ -48,12 +48,17 @@ def _defs():
     )
 
 
-def build_svg(rows, out_path, title=None):
+def build_svg(rows, out_path, title=None, fade_rows=None):
     """rows: list of lines, each line a list of (text, color) segments.
 
     A segment's color may be a plain hex string, or the tuple (color, "glow")
     to render that run with the soft glow filter (use sparingly).
+
+    fade_rows: optional set of row indices that fade in sequentially (a
+    one-shot "boot sequence" reveal) instead of rendering static/instant.
     """
+    fade_rows = fade_rows or set()
+    fade_order = sorted(fade_rows)
     max_len = max(sum(len(seg[0]) for seg in row) for row in rows) if rows else 0
     width = int(PAD_X * 2 + max_len * CHAR_WIDTH)
     height = int(PAD_TOP + len(rows) * LINE_HEIGHT + PAD_BOTTOM)
@@ -108,7 +113,16 @@ def build_svg(rows, out_path, title=None):
                 spans.append(f'<tspan {attrs}>{esc}{blink}</tspan>')
             else:
                 spans.append(f'<tspan {attrs}>{esc}</tspan>')
-        parts.append(f'<text x="{PAD_X}" y="{y}" xml:space="preserve">{"".join(spans)}</text>')
+        text_body = "".join(spans)
+        if i in fade_rows:
+            delay = 0.16 * fade_order.index(i)
+            parts.append(
+                f'<text x="{PAD_X}" y="{y}" xml:space="preserve" opacity="0">{text_body}'
+                f'<animate attributeName="opacity" from="0" to="1" begin="{delay:.2f}s" '
+                f'dur="0.35s" fill="freeze" /></text>'
+            )
+        else:
+            parts.append(f'<text x="{PAD_X}" y="{y}" xml:space="preserve">{text_body}</text>')
 
     parts.append("</svg>")
     svg = "\n".join(parts)
@@ -166,8 +180,20 @@ def build_hero_svg(out_path="assets/hero.svg"):
 
 
 def whoami_block():
+    """Returns (rows, fade_rows) — the first few lines are a one-shot
+    boot-sequence that fades in on load, before settling into the
+    static whoami/ps aux content."""
     prompt = [("melika@ucph", GREEN), (":", FG), ("~", CYAN), ("$ ", FG)]
-    return [
+    boot = [
+        [("[ OK ]", GREEN), (" mounting /dev/curiosity", DIM)],
+        [("[ OK ]", GREEN), (" loading theoretical_physics.dll", DIM)],
+        [("[ OK ]", GREEN), (" loading structural_biology.dll", DIM)],
+        [("[ OK ]", GREEN), (" starting neural-network-daemon", DIM)],
+        [("[WARN]", YELLOW), (" attention_span.service — restarting (loop)", DIM)],
+        [("[ OK ]", GREEN), (" melika-os v3.7 ready", DIM)],
+        [],
+    ]
+    rest = [
         prompt + [("whoami", FG)],
         [("PhD Fellow, DSDD Group — University of Copenhagen.", FG)],
         [("Physicist by training. AI × protein person by accident. Chaos gremlin by default.", FG)],
@@ -188,6 +214,9 @@ def whoami_block():
         [],
         prompt + [("█", GREEN, "glow")],
     ]
+    rows = boot + rest
+    fade_rows = set(range(len(boot)))
+    return rows, fade_rows
 
 
 def lsquests_block():
@@ -222,12 +251,124 @@ def outro_block():
     ]
 
 
+def neofetch_block():
+    fields = [
+        ("OS", "melika-OS (Copenhagen Edition)"),
+        ("Host", "University of Copenhagen — DSDD Group"),
+        ("Kernel", "theoretical-physics 5.∞"),
+        ("Uptime", "since 2019 (PhD chapter)"),
+        ("Shell", "curiosity --interactive"),
+        ("DE", "vscode + tmux"),
+        ("CPU", "neurons @ variable GHz (coffee-throttled)"),
+        ("GPU", "whatever the cluster gives me"),
+        ("Memory", "16GB coffee / 4GB sleep"),
+        ("Disk", "/dev/side_quests — 98% full"),
+    ]
+    label_w = max(len(k) for k, _ in fields) + 1
+    rows = [[("melika@ucph", GREEN), (":", FG), ("~", CYAN), ("$ ", FG), ("neofetch", FG)], []]
+    for k, v in fields:
+        rows.append([(f"{k.ljust(label_w)}", GREEN), ("  " + v, FG)])
+    return rows
+
+
+def build_graph_svg(out_path="assets/graph.svg"):
+    """A small node-link diagram connecting her fields — a knowledge graph
+    of the person, rendered with the same message-passing motif her GNN
+    work is actually about (a pulse animates along a few edges)."""
+    import math
+
+    width, height = 640, 460
+    cx, cy = width / 2, height / 2 + 12
+    radius = 150
+
+    satellites = [
+        ("PROTEIN AI\n(PhD)", MAGENTA),
+        ("PHYSICS", GREEN),
+        ("BLACK HOLES", GREEN),
+        ("FPGA", GREEN),
+        ("MARKETS", GREEN),
+        ("LLMs", GREEN),
+        ("HUMOR", GREEN),
+    ]
+    n = len(satellites)
+    positions = []
+    for i, (label, color) in enumerate(satellites):
+        angle = -math.pi / 2 + i * (2 * math.pi / n)
+        sx = cx + radius * math.cos(angle)
+        sy = cy + radius * math.sin(angle)
+        positions.append((sx, sy, label, color))
+
+    cross_edges = [(0, 5), (1, 2)]  # PROTEIN AI–LLMs, PHYSICS–BLACK HOLES
+
+    parts = []
+    parts.append(
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
+        f'viewBox="0 0 {width} {height}" font-family="{FONT}">'
+    )
+    parts.append(_defs())
+    parts.append(f'<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="14" fill="{BG}" stroke="{BORDER}" />')
+    parts.append(f'<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="13.5" fill="url(#scan)" />')
+    parts.append(
+        f'<text x="{width / 2}" y="30" text-anchor="middle" font-size="11" '
+        f'letter-spacing="1.5" fill="{DIM}">how_it_all_connects.gexf — node-link view</text>'
+    )
+
+    # spokes
+    for sx, sy, _label, _color in positions:
+        parts.append(f'<line x1="{cx:.1f}" y1="{cy:.1f}" x2="{sx:.1f}" y2="{sy:.1f}" stroke="{BORDER}" stroke-width="1.5" />')
+    # cross edges
+    for a, b in cross_edges:
+        ax, ay = positions[a][0], positions[a][1]
+        bx, by = positions[b][0], positions[b][1]
+        parts.append(f'<line x1="{ax:.1f}" y1="{ay:.1f}" x2="{bx:.1f}" y2="{by:.1f}" stroke="{MAGENTA}" stroke-width="1" stroke-dasharray="3 3" opacity="0.5" />')
+
+    # pulses traveling along a few spokes (message passing, on-brand for a GNN researcher)
+    pulse_targets = [0, 2, 4]
+    for k, idx in enumerate(pulse_targets):
+        sx, sy = positions[idx][0], positions[idx][1]
+        path = f'M{cx:.1f},{cy:.1f} L{sx:.1f},{sy:.1f}'
+        parts.append(
+            f'<circle r="3" fill="{GREEN}" filter="url(#glow)">'
+            f'<animateMotion path="{path}" dur="2.6s" begin="{k * 0.7:.1f}s" repeatCount="indefinite" />'
+            f'<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" '
+            f'dur="2.6s" begin="{k * 0.7:.1f}s" repeatCount="indefinite" />'
+            "</circle>"
+        )
+
+    # center node
+    parts.append(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="34" fill="{TITLEBAR}" stroke="{MAGENTA}" stroke-width="1.5" filter="url(#glow)" />')
+    parts.append(
+        f'<text x="{cx:.1f}" y="{cy + 4:.1f}" text-anchor="middle" font-size="12" '
+        f'font-weight="700" letter-spacing="1" fill="{FG}">MELIKA</text>'
+    )
+
+    # satellite nodes
+    for sx, sy, label, color in positions:
+        parts.append(f'<circle cx="{sx:.1f}" cy="{sy:.1f}" r="26" fill="{TITLEBAR}" stroke="{color}" stroke-width="1.5" />')
+        lines = label.split("\n")
+        for li, line in enumerate(lines):
+            dy = (li - (len(lines) - 1) / 2) * 11
+            parts.append(
+                f'<text x="{sx:.1f}" y="{sy + dy + 4:.1f}" text-anchor="middle" font-size="9.5" '
+                f'letter-spacing="0.5" fill="{FG}">{html.escape(line)}</text>'
+            )
+
+    parts.append("</svg>")
+    svg = "\n".join(parts)
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(svg)
+    return svg
+
+
 if __name__ == "__main__":
     joke = sys.argv[1] if len(sys.argv) > 1 else "Why do programmers prefer dark mode? Because light attracts bugs."
     build_hero_svg("assets/hero.svg")
-    build_svg(whoami_block(), "assets/term-whoami.svg", title="melika@ucph — whoami.sh")
+    whoami_rows, whoami_fade = whoami_block()
+    build_svg(whoami_rows, "assets/term-whoami.svg", title="melika@ucph — whoami.sh", fade_rows=whoami_fade)
     build_svg(lsquests_block(), "assets/term-lsquests.svg", title="side_quests/")
+    build_svg(neofetch_block(), "assets/term-neofetch.svg", title="melika@ucph — neofetch")
+    build_graph_svg("assets/graph.svg")
     build_svg(deepjoke_prompt_block(), "assets/term-deepjoke-prompt.svg", title="deepjoke.sh")
     build_svg(deepjoke_block(joke), "assets/term-deepjoke.svg", title="deepjoke.sh — output")
     build_svg(outro_block(), "assets/term-outro.svg", title="contact.sh")
-    print("generated 6 svgs")
+    print("generated 9 svgs")

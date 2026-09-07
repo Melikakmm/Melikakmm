@@ -12,7 +12,11 @@
 </p>
 
 <p align="center">
-  <img src="assets/term-whoami.svg" alt="terminal: whoami, origin story, ps aux obsessions" />
+  <img src="assets/term-whoami.svg" alt="terminal: boot sequence, whoami, origin story, ps aux obsessions" />
+</p>
+
+<p align="center">
+  <img src="assets/term-neofetch.svg" alt="neofetch-style fake system specs" />
 </p>
 
 <p align="center">
@@ -57,6 +61,14 @@
 | 🔮 `gpr-interatomic-potentials` | gaussian regression for atoms behaving nicely | `○ sleeping` | [repo](https://github.com/Melikakmm/GPR_fitting_interactive_potential) |
 | 📊 `r-projects` | advanced statistics, R edition | `○ sleeping` | [repo](https://github.com/Melikakmm/R_Projects) |
 | 🎓 `masters-thesis` | where this all started getting serious | `✓ exited(0)` | [repo](https://github.com/Melikakmm/Master_Thesis/tree/main) |
+
+<br/>
+
+<p align="center">
+  <img src="assets/graph.svg" alt="a small knowledge graph connecting physics, protein AI, black holes, FPGA, markets, LLMs, and humor" />
+  <br/>
+  <sub><em>yes, I drew my own hobbies as a graph — I do work on graph neural nets, it was going to happen eventually</em></sub>
+</p>
 
 <br/>
 
