@@ -14,44 +14,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch a joke and rewrite the terminal block
+      - name: Fetch a joke and regenerate the terminal SVG
         env:
           JOKE_API: "https://v2.jokeapi.dev/joke/Programming,Pun?type=single&safe-mode"
         run: |
           JOKE=$(curl -fsSL "$JOKE_API" | python3 -c "import json,sys; d=json.load(sys.stdin); print(d.get('joke','Segfault while looking for a joke. Try again tomorrow.'))")
           python3 - "$JOKE" <<'EOF'
-          import re
           import sys
+          sys.path.insert(0, "scripts")
+          from term_svg import build_svg, deepjoke_block
 
           joke = sys.argv[1].strip() or "Segfault while looking for a joke. Try again tomorrow."
-
-          with open("README.md", "r", encoding="utf-8") as f:
-              content = f.read()
-
-          block = (
-              "<!--START_SECTION:deepjoke-->\n"
-              "```ansi\n"
-              "\x1b[36m$ ./deepjoke.sh --run\x1b[0m\n"
-              f"\x1b[92m> {joke}\x1b[0m\n"
-              "\x1b[2m(refreshed daily — deepjoke.ai is still in training)\x1b[0m\n"
-              "```\n"
-              "<!--END_SECTION:deepjoke-->"
-          )
-
-          pattern = re.compile(
-              r"<!--START_SECTION:deepjoke-->.*?<!--END_SECTION:deepjoke-->",
-              re.DOTALL,
-          )
-          content = pattern.sub(block, content)
-
-          with open("README.md", "w", encoding="utf-8") as f:
-              f.write(content)
+          build_svg(deepjoke_block(joke), "assets/term-deepjoke.svg")
           EOF
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add assets/term-deepjoke.svg
           git diff --staged --quiet || git commit -m "chore: rotate DeepJoke output"
           git push

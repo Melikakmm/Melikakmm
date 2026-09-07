@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="724" height="463" viewBox="0 0 724 463" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14">
+<rect x="0.5" y="0.5" width="723" height="462" rx="10" fill="#0d1117" stroke="#30363d" />
+<path d="M0.5 34 V11 Q0.5 0.5 11 0.5 H713 Q723.5 0.5 723.5 11 V34 Z" fill="#161b22" stroke="#30363d" />
+<circle cx="22" cy="17.0" r="5.5" fill="#ff5f57" />
+<circle cx="40" cy="17.0" r="5.5" fill="#febc2e" />
+<circle cx="58" cy="17.0" r="5.5" fill="#28c840" />
+<text x="22" y="44" xml:space="preserve"><tspan fill="#39FF14">melika@ucph</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#56d4dd">~</tspan><tspan fill="#c9d1d9">$ </tspan><tspan fill="#c9d1d9">whoami</tspan></text>
+<text x="22" y="65" xml:space="preserve"><tspan fill="#c9d1d9">PhD Fellow, DSDD Group — University of Copenhagen.</tspan></text>
+<text x="22" y="86" xml:space="preserve"><tspan fill="#c9d1d9">Physicist by training. AI × protein person by accident. Chaos gremlin by default.</tspan></text>
+<text x="22" y="128" xml:space="preserve"><tspan fill="#39FF14">melika@ucph</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#56d4dd">~</tspan><tspan fill="#c9d1d9">$ </tspan><tspan fill="#c9d1d9">cat origin_story.txt</tspan></text>
+<text x="22" y="149" xml:space="preserve"><tspan fill="#c9d1d9">Started in theoretical physics &amp; pure math.</tspan></text>
+<text x="22" y="170" xml:space="preserve"><tspan fill="#c9d1d9">Got distracted by neural networks around year 3.</tspan></text>
+<text x="22" y="191" xml:space="preserve"><tspan fill="#c9d1d9">Now I build AI that stares at proteins until it understands them.</tspan></text>
+<text x="22" y="212" xml:space="preserve"><tspan fill="#c9d1d9">No regrets. Some deadlines.</tspan></text>
+<text x="22" y="254" xml:space="preserve"><tspan fill="#39FF14">melika@ucph</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#56d4dd">~</tspan><tspan fill="#c9d1d9">$ </tspan><tspan fill="#c9d1d9">ps aux | grep obsessions</tspan></text>
+<text x="22" y="275" xml:space="preserve"><tspan fill="#e3b341">USER      PID   OBSESSION                            STATUS</tspan></text>
+<text x="22" y="296" xml:space="preserve"><tspan fill="#c9d1d9">melika    0001  protein-protein-interactions        </tspan><tspan fill="#39FF14">[main thread]</tspan></text>
+<text x="22" y="317" xml:space="preserve"><tspan fill="#c9d1d9">melika    0002  black-holes-and-x-ray-binaries      </tspan><tspan fill="#39FF14">[running]</tspan></text>
+<text x="22" y="338" xml:space="preserve"><tspan fill="#c9d1d9">melika    0003  fpga-vhdl-tinkering                 </tspan><tspan fill="#6e7681">[sleeping]</tspan></text>
+<text x="22" y="359" xml:space="preserve"><tspan fill="#c9d1d9">melika    0004  volatility-carry-trading-bot        </tspan><tspan fill="#39FF14">[running]</tspan></text>
+<text x="22" y="380" xml:space="preserve"><tspan fill="#c9d1d9">melika    0005  deepjoke-ai                         </tspan><tspan fill="#e3b341">[training, ETA: never]</tspan></text>
+<text x="22" y="422" xml:space="preserve"><tspan fill="#39FF14">melika@ucph</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#56d4dd">~</tspan><tspan fill="#c9d1d9">$ </tspan><tspan fill="#39FF14">█</tspan></text>
+</svg>

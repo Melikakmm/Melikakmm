@@ -7,27 +7,9 @@
   <img src="https://visitcount.itsvg.in/api?id=MELIKAKMM&label=processes_observing_this_repo&color=0&icon=0&pretty=true" />
 </p>
 
-```ansi
-[92mmelika@ucph[0m:[36m~[0m$ whoami
-[0mPhD Fellow, DSDD Group — University of Copenhagen.
-Physicist by training. AI × protein person by accident. Chaos gremlin by default.
-
-[92mmelika@ucph[0m:[36m~[0m$ cat origin_story.txt
-[0mStarted in theoretical physics & pure math.
-Got distracted by neural networks around year 3.
-Now I build AI that stares at proteins until it understands them.
-No regrets. Some deadlines.
-
-[92mmelika@ucph[0m:[36m~[0m$ ps aux | grep obsessions
-[33mUSER      PID   OBSESSION                            STATUS[0m
-melika    0001  protein-protein-interactions        [92m[main thread][0m
-melika    0002  black-holes-and-x-ray-binaries      [92m[running][0m
-melika    0003  fpga-vhdl-tinkering                 [2m[sleeping][0m
-melika    0004  volatility-carry-trading-bot        [92m[running][0m
-melika    0005  deepjoke-ai                         [33m[training, ETA: never][0m
-
-[92mmelika@ucph[0m:[36m~[0m$ [5m█[0m
-```
+<p align="center">
+  <img src="assets/term-whoami.svg" alt="terminal: whoami, origin story, ps aux obsessions" />
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-39FF14?style=for-the-badge&logo=python&logoColor=000000" />
@@ -49,9 +31,9 @@ melika    0005  deepjoke-ai                         [33m[training, ETA: never]
   <img src="https://img.shields.io/badge/Jupyter-39FF14?style=for-the-badge&logo=jupyter&logoColor=000000" />
 </p>
 
-```ansi
-[92mmelika@ucph[0m:[36m~[0m$ ls -la ./side_quests/
-```
+<p align="center">
+  <img src="assets/term-lsquests.svg" alt="terminal: ls -la ./side_quests/" />
+</p>
 
 | process | what it actually is | link |
 |---|---|---|
@@ -70,17 +52,11 @@ melika    0005  deepjoke-ai                         [33m[training, ETA: never]
 
 <br/>
 
-```ansi
-[92mmelika@ucph[0m:[36m~[0m$ ./deepjoke.sh --run
-```
-
-<!--START_SECTION:deepjoke-->
-```ansi
-[36m$ ./deepjoke.sh --run[0m
-[92m> Why do programmers prefer dark mode? Because light attracts bugs.[0m
-[2m(this line refreshes daily — deepjoke.ai is still in training)[0m
-```
-<!--END_SECTION:deepjoke-->
+<p align="center">
+  <img src="assets/term-deepjoke-prompt.svg" alt="terminal: ./deepjoke.sh --run" />
+  <br/>
+  <img src="assets/term-deepjoke.svg" alt="deepjoke output, rotates daily" />
+</p>
 
 <br/>
 
@@ -96,11 +72,6 @@ melika    0005  deepjoke-ai                         [33m[training, ETA: never]
   </picture>
 </p>
 
-```ansi
-[92mmelika@ucph[0m:[36m~[0m$ cat contact.txt
-[0mCV      → https://github.com/Melikakmm/CV/blob/main/MelikaCV.pdf
-GitHub  → you're already here.
-
-[92mmelika@ucph[0m:[36m~[0m$ [33msudo shutdown -h now[0m [2m# jk, come say hi first[0m
-[5m█[0m
-```
+<p align="center">
+  <img src="assets/term-outro.svg" alt="terminal: contact info and sign-off" />
+</p>
