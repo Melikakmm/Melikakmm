@@ -234,33 +234,12 @@ def outro_block():
     ]
 
 
-def neofetch_block():
-    fields = [
-        ("OS", "melika-OS (Copenhagen Edition)"),
-        ("Host", "University of Copenhagen — DSDD Group"),
-        ("Kernel", "theoretical-physics 5.∞"),
-        ("Uptime", "since 2019 (PhD chapter)"),
-        ("Shell", "curiosity --interactive"),
-        ("DE", "vscode + tmux"),
-        ("CPU", "neurons @ variable GHz (coffee-throttled)"),
-        ("GPU", "whatever the cluster gives me"),
-        ("Memory", "16GB coffee / 4GB sleep"),
-        ("Disk", "/dev/side_quests — 98% full"),
-    ]
-    label_w = max(len(k) for k, _ in fields) + 1
-    rows = [[("melika@ucph", GREEN), (":", FG), ("~", CYAN), ("$ ", FG), ("neofetch", FG)], []]
-    for k, v in fields:
-        rows.append([(f"{k.ljust(label_w)}", GREEN), ("  " + v, FG)])
-    return rows
-
-
 if __name__ == "__main__":
     joke = sys.argv[1] if len(sys.argv) > 1 else "Why do programmers prefer dark mode? Because light attracts bugs."
     build_hero_svg("assets/hero.svg")
     build_svg(whoami_block(), "assets/term-whoami.svg", title="melika@ucph — whoami.sh")
     build_svg(lsquests_block(), "assets/term-lsquests.svg", title="side_quests/")
-    build_svg(neofetch_block(), "assets/term-neofetch.svg", title="melika@ucph — neofetch")
     build_svg(deepjoke_prompt_block(), "assets/term-deepjoke-prompt.svg", title="deepjoke.sh")
     build_svg(deepjoke_block(joke), "assets/term-deepjoke.svg", title="deepjoke.sh — output")
     build_svg(outro_block(), "assets/term-outro.svg", title="contact.sh")
-    print("generated 8 svgs")
+    print("generated 7 svgs")

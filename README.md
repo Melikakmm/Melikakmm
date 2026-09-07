@@ -16,10 +16,6 @@
 </p>
 
 <p align="center">
-  <img src="assets/term-neofetch.svg" alt="neofetch-style fake system specs" />
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Python-05070A?style=for-the-badge&logo=python&logoColor=00FFA3" />
   <img src="https://img.shields.io/badge/R-05070A?style=for-the-badge&logo=r&logoColor=00FFA3" />
   <img src="https://img.shields.io/badge/C%2B%2B-05070A?style=for-the-badge&logo=cplusplus&logoColor=00FFA3" />
