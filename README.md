@@ -24,8 +24,12 @@
   <img src="https://img.shields.io/badge/PyTorch-05070A?style=for-the-badge&logo=pytorch&logoColor=00FFA3" />
   <img src="https://img.shields.io/badge/TensorFlow-05070A?style=for-the-badge&logo=tensorflow&logoColor=00FFA3" />
   <img src="https://img.shields.io/badge/Keras-05070A?style=for-the-badge&logo=keras&logoColor=00FFA3" />
+  <img src="https://img.shields.io/badge/JAX-05070A?style=for-the-badge&logoColor=00FFA3" />
   <img src="https://img.shields.io/badge/PyTorch_Geometric-05070A?style=for-the-badge&logoColor=00FFA3" />
   <img src="https://img.shields.io/badge/HuggingFace-05070A?style=for-the-badge&logo=huggingface&logoColor=00FFA3" />
+  <br/>
+  <img src="https://img.shields.io/badge/Physics--Informed_Neural_Nets-1A0512?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Large_Language_Models-1A0512?style=for-the-badge" />
   <br/>
   <img src="https://img.shields.io/badge/Docker-05070A?style=for-the-badge&logo=docker&logoColor=00FFA3" />
   <img src="https://img.shields.io/badge/MySQL-05070A?style=for-the-badge&logo=mysql&logoColor=00FFA3" />
