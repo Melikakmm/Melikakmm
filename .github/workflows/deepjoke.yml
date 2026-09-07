@@ -25,7 +25,7 @@ jobs:
           from term_svg import build_svg, deepjoke_block
 
           joke = sys.argv[1].strip() or "Segfault while looking for a joke. Try again tomorrow."
-          build_svg(deepjoke_block(joke), "assets/term-deepjoke.svg")
+          build_svg(deepjoke_block(joke), "assets/term-deepjoke.svg", title="deepjoke.sh — output")
           EOF
 
       - name: Commit changes
