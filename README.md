@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-compiling_a_personality-39FF14?style=for-the-badge&labelColor=0D1117" />
-  <img src="https://visitcount.itsvg.in/api?id=MELIKAKMM&label=processes_observing_this_repo&color=0&icon=0&pretty=true" />
+  <img src="https://komarev.com/ghpvc/?username=Melikakmm&label=processes_observing_this_repo&color=39FF14&style=for-the-badge" />
 </p>
 
 <p align="center">
