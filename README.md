@@ -65,14 +65,6 @@
 <br/>
 
 <p align="center">
-  <img src="assets/graph.svg" alt="a small knowledge graph connecting physics, protein AI, black holes, FPGA, markets, LLMs, and humor" />
-  <br/>
-  <sub><em>yes, I drew my own hobbies as a graph — I do work on graph neural nets, it was going to happen eventually</em></sub>
-</p>
-
-<br/>
-
-<p align="center">
   <img src="assets/term-deepjoke-prompt.svg" alt="terminal: ./deepjoke.sh --run" />
   <br/>
   <img src="assets/term-deepjoke.svg" alt="deepjoke output, rotates daily" />
